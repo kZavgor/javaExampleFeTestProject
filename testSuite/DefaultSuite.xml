@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Test Suite" verbose="1">
+
+    <test name="Verify google send email form">
+        <classes>
+            <class name="com.base.tests.SendMailTest"/>
+        </classes>
+    </test>
+</suite>
